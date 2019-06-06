@@ -178,7 +178,7 @@ img {
   width: 100%;
   margin: auto ;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .navigation {
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@ img {
 .navigation h1 {
   margin-left: -60px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .navigation h1 {
     margin: auto;
     font-size: 3rem;
@@ -204,7 +204,7 @@ img {
   margin-right: -42px;
   margin-top: -3px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .navigation nav {
     width: 100%;
     justify-content: space-evenly;
@@ -219,7 +219,7 @@ img {
   padding: 15px;
   font-size: 1.6rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .navigation nav a {
     padding: 10px 15px 0 15px;
     margin-bottom: -10px;
@@ -239,7 +239,7 @@ img {
 header {
   border-bottom: 2px dashed gray;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   header {
     width: 100%;
     padding: 0 2% 0 5%;
@@ -252,13 +252,18 @@ header .text {
   margin-top: -10px;
   margin-bottom: 10px;
 }
+@media (max-width: 850px) and (min-width: 600px) {
+  .home {
+    max-width: 90%;
+  }
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .content-section {
     width: 100%;
     display: flex;
@@ -271,7 +276,7 @@ header .text {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .content-section .text-content {
     display: flex;
     flex-direction: column;
@@ -283,7 +288,7 @@ header .text {
   width: 48%;
   padding-left: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .img-content {
     width: 100%;
     display: flex;
@@ -293,7 +298,7 @@ header .text {
 .home .img-content img {
   border-radius: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .img-content img {
     width: 100%;
     height: 100%;
@@ -304,7 +309,7 @@ header .text {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .inverse-content {
     display: flex;
     flex-direction: column-reverse;
@@ -316,7 +321,7 @@ header .text {
   padding-left: 1%;
   padding-right: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .inverse-content .text-content {
     display: flex;
   }
@@ -325,7 +330,7 @@ header .text {
   padding-right: 1%;
   padding-left: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .inverse-content .img-content {
     width: 100%;
     padding: 0 13px 5px 0;
@@ -335,7 +340,7 @@ header .text {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .content-destination {
     width: 100%;
     padding: 0 10px 0 24px;
@@ -350,7 +355,14 @@ header .text {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .home .content-pick {
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+  }
+}
+@media (max-width: 850px) and (min-width: 600px) {
   .home .content-pick {
     flex-direction: column;
     width: 100%;
@@ -361,7 +373,16 @@ header .text {
   width: 30%;
   margin-bottom: 42px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .home .content-pick .destination {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 40px 0 70px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 850px) and (min-width: 600px) {
   .home .content-pick .destination {
     display: flex;
     width: 100%;
@@ -373,7 +394,12 @@ header .text {
 .home .content-pick .destination p {
   margin-bottom: 15px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .home .content-pick .destination p {
+    margin: auto;
+  }
+}
+@media (max-width: 850px) and (min-width: 600px) {
   .home .content-pick .destination p {
     margin: auto;
   }
@@ -387,7 +413,16 @@ header .text {
   text-decoration: none;
   height: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .home .content-pick .destination .btn {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    padding: 12px 57px 12px 57px;
+    margin-bottom: 2px;
+  }
+}
+@media (max-width: 850px) and (min-width: 600px) {
   .home .content-pick .destination .btn {
     width: 95%;
     display: flex;
